@@ -44,7 +44,8 @@ $(".elementor-widget-button[logged-download] a").on( "click" , function (){
 	//console.log($(this).parent().parent().parent().parent().find('.elementor-element[logged-download]').attr('logged-download'));
 	$("body").attr("logged-download" , $(this).parent().parent().parent().parent().find('.elementor-element[logged-download]').attr('logged-download'));
 });
-	</script>```  
+	</script>
+```  
 
   
 ### Create the Subscription Popup  
@@ -54,9 +55,10 @@ generate the popup with the contact form and attach the newsletter API
 **Take note of Popup ID / post ID**  
   
 you can find in the WP Dashboard > Templates (Elementor) > Popup in shortcode column, exemple  
-  
-[elementor-template id="4598"]  
-  
+
+```bash
+[elementor-template id="4598"]
+```
   
 ### Create the Downloading Popup  
   
@@ -65,9 +67,10 @@ generate the popup with one continer for every download options
 **Take note of Popup ID / post ID**  
   
 you can find in the WP Dashboard > Templates (Elementor) > Popup in shortcode column, exemple  
-  
+
+```bash
 [elementor-template id="9832"]  
-  
+ ``` 
   
   
 ### Create the attribute  
@@ -80,6 +83,7 @@ There is two ways to create it
 - calculate the hash of file  
   
 > calculating the hash anonimize the file and help you to the find the correct file  
+
   
 How to calculate the hash:  
   
@@ -221,5 +225,7 @@ function setCookie(name,value,days) {
 **to edit, the simple solution is remove the "hide" class and makes your changes**
 
 # Support the project
+
 Pull any request to improve the project or the code
+
 Support me **https://bitly.ws/33Foh**
