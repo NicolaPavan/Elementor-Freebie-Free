@@ -229,3 +229,5 @@ function setCookie(name,value,days) {
 Pull any request to improve the project or the code
 
 Support me **https://bitly.ws/33Foh**
+
+https://www.nicolapavan.it
