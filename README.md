@@ -20,7 +20,7 @@ This is a work around the elementor popup and the dynamic conditions (free plugi
 
 # Workflow
 
-![Freebie Workflow](%5Bhttps://www.nicolapavan.it/wp-content/uploads/2023/11/Freebie_NicolaPavan_-scaled.jpg%5D(https://www.nicolapavan.it/wp-content/uploads/2023/11/Freebie_NicolaPavan_-scaled.jpg))
+![Freebie Workflow](https://www.nicolapavan.it/wp-content/uploads/2023/11/Freebie_NicolaPavan_-scaled.jpg)(https://www.nicolapavan.it/wp-content/uploads/2023/11/Freebie_NicolaPavan_-scaled.jpg))
 
 From a multiple webpages you can recall the **subscription popup** with a “logged-download” attribute, when it opens a function scan the “SubmittedContact” cookie and create if wasn’t or skip if it value is true. When the form present, in the popup, submit succefuly trigger the second popup, with the specific attribute.
 
